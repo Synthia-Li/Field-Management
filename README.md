@@ -1,2 +1,17 @@
 # Field-Management
-Undergraduate Thesis - Awarded 'Top Ten Excellent Graduation Thesis' at Zhejiang University
+
+My Undergraduate Thesis: 
+
+Development of an image data management system based on UAV remote sensing for crop breeding
+
+Awarded '**Top Ten Excellent Graduation Thesis**' at Zhejiang University
+
+
+
+Given the global food crisis and limited arable land, it is imperative to improve genetic improvement rates and increase crop yields and resilience through agricultural and breeding work. Agricultural breeding testing involves spatial and temporal data collection and analysis of different plant characteristics in different breeding plots. Unmanned aerial vehicle (UAV) remote sensing is applicable for collecting large-scale, high-revisit-frequency information, while machine learning is suitable for analyzing large-scale image data, which can be used for detecting plots, classifying images, and detecting crop growth trends. Therefore, we can obtain remote sensing images through UAVs and use machine learning to generate complete field data sets. Based on this background, this study expects to develop a crop breeding data management software based on UAV remote sensing images to statistically and machine-learned partition plot data, establish a multi-modal expandable database of numerical text images, enhance breeding information space-time management, thereby improving breeding efficiency and promoting abundant grain harvests and increased income in the industry.
+
+This article initially analyzes relevant domestic and foreign literature in related fields, finding that existing breeding data management systems have problems concentrating on large scales rather than small plots, weak expandability and customizability, and a focus on data collection rather than user interaction. Therefore, this study hopes to design a crop breeding data management system that is highly expandable, user-friendly, and has low installation, learning, and usage costs. Based on this, this paper identifies the data types that need to be managed, compares existing model platforms, and discusses development tools and software and hardware environments. While designing the overall architecture, this study delves into user needs and clarifies design principles, ultimately completing the software database architecture design. Finally, software development was completed, and an in-depth introduction to the system's functions was provided, with real data testing of software functionality and usage conducted in an actual production environment.
+
+The software technology combines advanced technologies such as a software interface developed based on QT for friendly human-computer interaction, high-quality databases built based on MySQL, and automated UAV remote sensing plot image processing based on Mask R-CNN. Regarding software functionality, it can manage breeding plots from three dimensions: space, time, and indicators, with the spatial dimension divided into four scales: breeding bases, complete plots, breeding zones, and single plantations. This database includes multi-modal data such as images, texts, and numerics. Breeders can view the situation of the entire breeding base macroscopically or view specific plots or even some specific plants through images. Breeders can analyze and obtain breeding plot information without traveling to and fro between breeding bases, which can help breeders conduct breeding work more quickly and accurately.
+
+**Keywords:** Breeding; Database; Field Identification; UAV Remote Sensing
