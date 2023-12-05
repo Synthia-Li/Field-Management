@@ -9,9 +9,13 @@ Awarded '**Top Ten Excellent Graduation Thesis**' at Zhejiang University
 ## Technical Description
 
 Tech Stack: C++, QT Creator, MySQL, Computer Vision, Object-Oriented Design
+
 ● Based on the object-oriented design, utilized QT for the front end, C++ for the back end, and MySQL for data storage 
+
 ● Utilized the Mask RCNN computer vision model to realize automatic field segmentation and improve 80% efficiency
+
 ● Reduced 64% modeling and query API latency by multi-threading in the backend, implementing pagination and adding appropriate indexes to MySQL 
+
 ● Achieved the highest honor for undergraduate thesis at college: Top 10 Outstanding Graduation Thesis
 
 ## Abstract
